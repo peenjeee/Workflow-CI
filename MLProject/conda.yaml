@@ -1,0 +1,13 @@
+name: panji-smsml-mlflow-project
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.7
+  - pip
+  - pip:
+      - mlflow==2.19.0
+      - dagshub==0.5.2
+      - pandas==2.2.3
+      - scikit-learn==1.6.1
+      - matplotlib==3.10.0
+      - joblib==1.4.2

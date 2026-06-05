@@ -1,0 +1,5 @@
+Docker Hub image target:
+docker.io/peenjeee/employee-attrition-panji:latest
+
+Docker Hub repository:
+https://hub.docker.com/r/peenjeee/employee-attrition-panji

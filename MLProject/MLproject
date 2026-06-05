@@ -1,0 +1,12 @@
+name: panji-employee-attrition-mlproject
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      data_path: {type: path, default: employee_attrition_preprocessing}
+      n_estimators: {type: int, default: 180}
+      max_depth: {type: str, default: "8"}
+      min_samples_leaf: {type: int, default: 2}
+    command: "python modelling.py --data-path {data_path} --n-estimators {n_estimators} --max-depth {max_depth} --min-samples-leaf {min_samples_leaf}"

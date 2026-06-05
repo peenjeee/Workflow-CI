@@ -1,0 +1,39 @@
+{
+  "rows_raw": 365,
+  "rows_after_cleaning": 360,
+  "train_rows": 288,
+  "test_rows": 72,
+  "target": "attrition",
+  "positive_rate": 0.2222222222222222,
+  "numeric_features": [
+    "age",
+    "monthly_income",
+    "years_at_company",
+    "distance_from_home",
+    "job_satisfaction"
+  ],
+  "categorical_features": [
+    "overtime",
+    "department",
+    "education"
+  ],
+  "encoded_feature_count": 16,
+  "feature_names": [
+    "age",
+    "monthly_income",
+    "years_at_company",
+    "distance_from_home",
+    "job_satisfaction",
+    "overtime_No",
+    "overtime_Yes",
+    "department_Finance",
+    "department_Human Resources",
+    "department_Operations",
+    "department_Research",
+    "department_Sales",
+    "education_Bachelor",
+    "education_Doctor",
+    "education_High School",
+    "education_Master"
+  ]
+}
